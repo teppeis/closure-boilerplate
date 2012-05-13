@@ -1,0 +1,6 @@
+-e {
+  "name": "sample",
+  "description": "Sample project",
+  "author": "teppeis@gmail.com",
+  "dependencies": {}
+}
