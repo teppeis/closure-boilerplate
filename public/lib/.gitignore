@@ -1,5 +1,6 @@
 # Ignore the Google Closure Library
 closure-library
+closure-templates
 
 # Except its base.js file
 !closure-library/closure/goog/base.js
