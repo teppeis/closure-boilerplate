@@ -1,6 +1,2 @@
-# Ignore the Google Closure Library
-closure-library
+# Ignore the Google Closure Templates installed by make.sh
 closure-templates
-
-# Except its base.js file
-!closure-library/closure/goog/base.js

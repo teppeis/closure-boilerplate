@@ -102,11 +102,13 @@ git remote rename origin $GIT_REMOTE_NAME
 
 
 # Download the Google Closure Library
-curl $CLOSURE_LIBRARY_URL > $CLOSURE_LIBRARY_ARCHIVE_NAME
-mkdir -p $CLOSURE_LIBRARY_PATH
-unzip $CLOSURE_LIBRARY_ARCHIVE_NAME -d $CLOSURE_LIBRARY_PATH
-rm $CLOSURE_LIBRARY_ARCHIVE_NAME
+#curl $CLOSURE_LIBRARY_URL > $CLOSURE_LIBRARY_ARCHIVE_NAME
+#mkdir -p $CLOSURE_LIBRARY_PATH
+#unzip $CLOSURE_LIBRARY_ARCHIVE_NAME -d $CLOSURE_LIBRARY_PATH
+#rm $CLOSURE_LIBRARY_ARCHIVE_NAME
 
+# Install the Google Closure Library with git submodule
+git submodule update --init
 
 # Download the Google Closure Compiler
 curl $CLOSURE_COMPILER_URL > $CLOSURE_COMPILER_ARCHIVE_NAME
