@@ -1,3 +1,7 @@
+Forked from https://github.com/jankuca/closure-boilerplate.
+
+----
+
 # Google Closure Boilerplate
 
 This boilerplate should be able to work as the base of any *Google Closure*-based application.
